@@ -175,4 +175,4 @@ const colors = {
 
   
 
-  module.exports = generateHTML 
+  module.exports = generateHTML

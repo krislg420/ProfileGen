@@ -1,10 +1,10 @@
 const fs = require('fs'),
-    convertFactory = require('electron-html-to');
+const convertFactory = require('electron-html-to');
 const axios = require("axios");
 const inquirer = require("inquirer");
 const generateHTML = require("./generateHTML");
 const conversion = convertFactory({
-    converterPath: convertFactory.converters.PDF
+converterPath: convertFactory.converters.PDF
 });
 
 
@@ -27,9 +27,9 @@ function init() {
 
 
 
-        // API call to github API 
+                                                    // API call to github API 
         .then(function ({ username, color }) {
-            const queryURL = `https://api.github.com/users/${username}`;
+            const queryURL = "https://api.github.com/users/${username}";
             axios.get(queryURL).then(function (response) {
 
                 let photo = response.data.avatar_url;
