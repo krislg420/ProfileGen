@@ -217,7 +217,7 @@ const colors = {
                     <div class="col">
                         <div class="card">
                             <h3>Following</h3>
-                            <h3>${response.data.following}</h3>
+                            <h3>${.data.following}</h3>
                         </div>
                     </div>
                 </div>
