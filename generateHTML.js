@@ -197,20 +197,20 @@ const colors = {
                     <div class="col">
                         <div class="card">
                             <h3>Public Repos</h3>
-                            <h3>${response.data.repos}</h3>
+                            <h3>${data.repos}</h3>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card">
                             <h3>Followers</h3>
-                            <h3>${response.data.followers}</h3>
+                            <h3>${data.followers}</h3>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="card">
-                            <h3>Stars</h3>
+                            <h3>Github Stars</h3>
                             <h3>1</h3>
                         </div>
                     </div>
@@ -226,4 +226,4 @@ const colors = {
    
     </body>
   
-  module.exports = generateHTML
+  module.exports = generateHTML;

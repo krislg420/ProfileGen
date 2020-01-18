@@ -1,8 +1,8 @@
+const generateHTML = require("./generateHTML.js");
 const fs = require('fs'),
 const convertFactory = require('electron-html-to');
 const axios = require("axios");
 const inquirer = require("inquirer");
-const generateHTML = require("./generateHTML");
 const conversion = convertFactory({
 converterPath: convertFactory.converters.PDF
 });
