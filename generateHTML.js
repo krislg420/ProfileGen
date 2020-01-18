@@ -178,7 +178,7 @@ const colors = {
             <div class="row">
                 <div class="col">
                     <div class="photo-header">
-                        <img src="${data.photo}">
+                        <img src="${data.photo}"></img>
                             <h1>${data.name}</h1>
                           
                             <div class="links-nav">
@@ -223,16 +223,7 @@ const colors = {
                 </div>
             </div>
         </div>
-    </div>
-</body>
+   
+    </body>
   
-
-    
-      
-}
-
-
-module.exports = generateHTML  
-  
-
   module.exports = generateHTML
