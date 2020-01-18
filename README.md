@@ -34,3 +34,8 @@ https://github.com/krislg420/ProfileGen
 
 ## Link to site 
 https://krislg420.github.io/ProfileGen/
+
+
+## Example Screenshot
+
+![22AC1A1C-6F76-49CF-9B67-08077FCED568_1_105_c](https://user-images.githubusercontent.com/57952065/72657431-c5235d80-3969-11ea-8bc3-16114a7300e2.jpeg)
