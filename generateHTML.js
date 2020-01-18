@@ -172,7 +172,67 @@ const colors = {
            }
         </style>`
   }
+<body>
+    <div class="wrapper">
+        <header class="mega-container">
+            <div class="row">
+                <div class="col">
+                    <div class="photo-header">
+                        <img src="${data.photo}">
+                            <h1>${data.name}</h1>
+                          
+                            <div class="links-nav">
+                                <a class="nav-link" href="https://www.google.com/maps/place/${data.location}"
+                                    target="_blank">${data.location}</a>
+                                <a class="nav-link" href="https://github.com/${data.profile}" target="_blank">Github</a>
+                                <a class="nav-link" href="${data.blog}" target="_blank">Blog</a>
+                            </div>
+                   
+                    </div>
+                </div>
+            </div>    
+        </header>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <h3>Public Repos</h3>
+                            <h3>${response.data.repos}</h3>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h3>Followers</h3>
+                            <h3>${response.data.followers}</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <h3>Stars</h3>
+                            <h3>1</h3>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <h3>Following</h3>
+                            <h3>${response.data.following}</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+  
 
+    
+      
+}
+
+
+module.exports = generateHTML  
   
 
   module.exports = generateHTML
